@@ -1,0 +1,12 @@
+package Stepdefs;
+
+import cucumber.api.java.en.Given;
+
+public class LoginSteps {
+
+  //Given the user is on the login page
+  @Given
+  public void user_on_login()
+  
+
+}
