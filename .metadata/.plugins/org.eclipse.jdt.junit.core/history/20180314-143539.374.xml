@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LoginRunner" project="seleniumCucumberFramework" tests="5" started="5" failures="0" errors="0" ignored="2">
+  <testsuite name="runners.LoginRunner" time="0.019">
+    <testsuite name="Feature: The Login Page" time="0.019">
+      <testsuite name="Scenario: the user should be able to log in" time="0.0">
+        <testcase name="Given the user is on the login page" classname="Scenario: the user should be able to log in" time="0.001"/>
+        <testcase name="When the user enters valid credentials" classname="Scenario: the user should be able to log in" time="0.0"/>
+        <testcase name="Then the user should be able to login" classname="Scenario: the user should be able to log in" time="0.0"/>
+      </testsuite>
+      <testsuite name="Scenario: Validate the logo" time="0.0" incomplete="true">
+        <skipped/>
+        <testcase name="Given the user is on the home page" classname="Scenario: Validate the logo" time="0.0" ignored="true"/>
+        <testcase name="Then the user should see the logo" classname="Scenario: Validate the logo" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

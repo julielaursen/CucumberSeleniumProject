@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="seleniumCucumberFramework (1)" project="seleniumCucumberFramework" tests="1" started="0" failures="0" errors="0" ignored="0">
+  <testcase name="runners.LoginRunner" classname="runners.LoginRunner" incomplete="true"/>
+</testrun>

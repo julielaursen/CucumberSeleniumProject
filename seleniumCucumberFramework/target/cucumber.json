@@ -1,0 +1,98 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "the user should be able to log in",
+        "description": "",
+        "id": "the-login-page;the-user-should-be-able-to-log-in",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 154437969,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginSteps.user_on_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 84390,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user enters valid credentials",
+            "match": {
+              "location": "LoginSteps.user_enters_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 245569,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user should be able to login",
+            "match": {
+              "location": "LoginSteps.user_logs_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Validate the logo",
+        "description": "",
+        "id": "the-login-page;validate-the-logo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "the user is on the home page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "the user should see the logo",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@Logo"
+          }
+        ]
+      }
+    ],
+    "name": "The Login Page",
+    "description": "As a returning customer\r\nI want to log into the application\r\nSo that I can view my account",
+    "id": "the-login-page",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
